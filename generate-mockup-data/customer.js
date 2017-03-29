@@ -16,7 +16,6 @@ function generateCustomers () {
     })
   }
 
-  console.log(JSON.stringify(customers));
   return { "customers": customers }
 }
 
